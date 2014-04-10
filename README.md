@@ -19,4 +19,10 @@ public class Constants {
 }
 ```
 
+This widget has to be used with the following configuration on ActivityManifest.xml
+
+```java
+android:configChanges="orientation|keyboardHidden|screenSize
+```
+
 Work in progress. Feedback appreciated.
